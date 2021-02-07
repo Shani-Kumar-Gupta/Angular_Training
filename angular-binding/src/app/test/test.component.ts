@@ -16,6 +16,10 @@ export class TestComponent implements OnInit {
 
   public name = "Gemini Solutions" // Class Property
   public url = window.location.href;
+
+  // Property Binding
+  public myId = "testId"
+  public isDisabled = true;
   constructor() { }
 
   ngOnInit(): void {

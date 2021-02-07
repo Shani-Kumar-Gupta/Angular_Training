@@ -1,4 +1,5 @@
 <p>test works!</p>
+<h1>Interpolation</h1>
 <h1>Welcome to {{name}}</h1> <!--Interpolation-->
 <h2>{{2+2*5}}</h2> <!--Evaluating Expression-->
 <h2>{{"Welcome to " + name}}</h2> <!--String Concat-->
@@ -10,3 +11,14 @@
 <!--<h4>{{window.location.href}} // Can't use global js variable</h4>-->
 
 <h3>{{url}}</h3>
+
+<h1>Property Binding</h1>
+<input [id]="myId" type="text" value="Shani">
+<!--We can also use Interpolation for property binding-->
+<input id="{{myId}}" type="text" value="Gemini"> <!--Only used as a string interpolation : Limitation-->
+
+<h3>Why Property Binding???</h3>
+<input disabled="false" [id]="myId" type="text" value="GLA University"><br/>
+<input disabled="{{false}}" [id]="myId" type="text" value="GLA University">
+<input [disabled]="isDisabled" [id]="myId" type="text" value="GLA University">
+<input bind-disabled="false" [id]="myId" type="text" value="GLA University">
