@@ -20,6 +20,19 @@ export class TestComponent implements OnInit {
   // Property Binding
   public myId = "testId"
   public isDisabled = true;
+
+  // Class Binding
+  public successClass = "text-success";
+  public dangerClass = "text-danger";
+  public fontClass = "text-special";
+  public hasError = true;
+  public isSpecial = true;
+  public messageClasses = {
+    "text-success": !this.hasError,
+    "text-danger": this.hasError,
+    "text-special": this.isSpecial
+  }
+
   constructor() { }
 
   ngOnInit(): void {

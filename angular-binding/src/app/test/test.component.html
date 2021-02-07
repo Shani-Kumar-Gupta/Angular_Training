@@ -22,3 +22,13 @@
 <input disabled="{{false}}" [id]="myId" type="text" value="GLA University">
 <input [disabled]="isDisabled" [id]="myId" type="text" value="GLA University">
 <input bind-disabled="false" [id]="myId" type="text" value="GLA University">
+
+
+<h1>Class Binding</h1>
+<h2 class="text-success">Hello!! My Name is Shani</h2>
+<h3 [class]="successClass">Welcome to University</h3>
+<h4 [class]="dangerClass">Backend</h4>
+<h3 [class.text-danger]="hasError">Dev Community</h3>
+
+<!--If want to apply multiple classes Angular provides ngClass directives(Custom HTML attribute which angular provides)-->
+<h2 [ngClass]="messageClasses">Angular</h2> <!--Bind an Object-->
