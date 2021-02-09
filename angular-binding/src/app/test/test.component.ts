@@ -19,7 +19,7 @@ export class TestComponent implements OnInit {
 
   // Property Binding
   public myId = "testId"
-  public isDisabled = true;
+  public isDisabled = false;
 
   // Class Binding
   public successClass = "text-success";

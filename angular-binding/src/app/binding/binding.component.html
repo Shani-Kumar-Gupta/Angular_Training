@@ -1,0 +1,8 @@
+<p>binding works!</p>
+<h2 [style.color]="'orange'">Style Binding</h2>
+<!--Conditional Style Binding-->
+<h2 [style.color]="!hasError ? 'red' : 'green'">Hello Angular!!!</h2>
+<!--Binding property to style binding-->
+<h2 [style.color]="highlightColor">Style Binding 2</h2>
+<!--Bind multiple style property-->
+<h2 [ngStyle]="titleStyle">Style Binding 3</h2>
