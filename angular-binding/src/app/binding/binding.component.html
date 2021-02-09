@@ -6,3 +6,7 @@
 <h2 [style.color]="highlightColor">Style Binding 2</h2>
 <!--Bind multiple style property-->
 <h2 [ngStyle]="titleStyle">Style Binding 3</h2>
+
+<h1>Event Binding</h1>
+<button (click)="onClick($event)">Greet</button> <!--Exccess all the property of dom event-->
+{{greeting}}

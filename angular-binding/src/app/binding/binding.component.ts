@@ -13,9 +13,18 @@ export class BindingComponent implements OnInit {
     color: 'blue',
     fontStyle : 'italic'
   }
+
+  // Event Binding Example: Set Property when button click
+  public greeting = '' 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onClick(event: any){
+    console.log("Event Binding");
+    this.greeting = "Hello!! Event Binding";
+    console.log(event);
   }
 
 }
