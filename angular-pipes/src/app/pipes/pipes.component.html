@@ -11,3 +11,18 @@
     <h3>{{person}}</h3>
     <h3>{{person | json}}</h3>
 </div>
+<hr/>
+
+<div>
+    <h1>Built-in Pipes used for Number</h1>
+    <h4>{{5.678 | number:'1.2-3'}}</h4>
+    <h4>{{5.678 | number:'3.4-5'}}</h4>
+    <h4>{{5.678 | number:'3.1-2'}}</h4>
+    <h4>{{0.25 | percent}}</h4>
+    <h4>{{2.25 | percent}}</h4>
+    <h4>{{0.25 | currency}}</h4>
+    <h4>{{25 | currency: 'GBP'}}</h4>
+    <!--ISO Currency Code-->
+    <h4>{{25 | currency: 'INR'}}</h4>
+    <h4>{{25 | currency: 'INR' : 'code'}}</h4>
+</div>
