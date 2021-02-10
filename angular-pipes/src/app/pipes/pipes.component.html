@@ -1,5 +1,5 @@
 <p>pipes works!</p>
-<!--Pipes allows us to transform data before displaying them to view-->
+<!--Pipes allows us to transform data before displaying them to view and only used to manipulate data on view-->
 <div>
     <h4>{{name}}</h4>
     <h2>Built-in Pipes used for string</h2>
@@ -25,4 +25,15 @@
     <!--ISO Currency Code-->
     <h4>{{25 | currency: 'INR'}}</h4>
     <h4>{{25 | currency: 'INR' : 'code'}}</h4>
+</div>
+<hr/>
+
+<div>
+    <h1>Built-in Pipes used for Date</h1>
+    <h3>{{date}}</h3>
+    <h3>{{date | date:'short'}}</h3>
+    <h3>{{date | date:'shortDate'}}</h3>
+    <h3>{{date | date:'shortTime'}}</h3>
+    <h3>{{date | date:'medium'}}</h3>
+    <h3>{{date | date:'large'}}</h3>
 </div>

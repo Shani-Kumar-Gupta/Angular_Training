@@ -13,6 +13,8 @@ export class PipesComponent implements OnInit {
     "firstName" : "Smith",
     "lastName" : "Johnson"
   }
+
+  public date = new Date();
   constructor() { }
 
   ngOnInit(): void {
