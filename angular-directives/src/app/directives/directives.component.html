@@ -1,0 +1,14 @@
+<p>directives works!</p>
+<h2 *ngIf="displayName; else elseBlock">ngIf Directives</h2>
+<ng-template #elseBlock>
+    <h2>Else ngIf Directives</h2>
+</ng-template>
+<!--Another syntax-->
+<div *ngIf="displayName; then thenBlock; else elseBlock1"></div>
+<ng-template #thenBlock>
+    <h2>Hello</h2>
+</ng-template>
+<ng-template #elseBlock1>
+    <h2>Hello Hidden</h2>
+</ng-template>
+
