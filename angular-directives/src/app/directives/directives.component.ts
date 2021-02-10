@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DirectivesComponent implements OnInit {
 
   displayName = false;
+  public color = "red";
   constructor() { }
 
   ngOnInit(): void {
