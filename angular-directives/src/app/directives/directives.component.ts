@@ -9,6 +9,8 @@ export class DirectivesComponent implements OnInit {
 
   displayName = false;
   public color = "red";
+
+  public colors = ["red", "green", "blue", "yellow"]
   constructor() { }
 
   ngOnInit(): void {

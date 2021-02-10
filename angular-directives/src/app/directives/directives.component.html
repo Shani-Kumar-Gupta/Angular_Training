@@ -11,12 +11,18 @@
 <ng-template #elseBlock1>
     <h2>Hello Hidden</h2>
 </ng-template>
-
+<hr/>
 <h1>ngSwitch Directives</h1>
 <div [ngSwitch]="color">
     <div *ngSwitchCase="'red'">You Picked red color</div>
     <div *ngSwitchCase="'blue'">You Picked blue color</div>
     <div *ngSwitchCase="'green'">You Picked green color</div>
     <div *ngSwitchDefault>Pick again</div>
+</div>
+<hr/>
+
+<h1>ngFor Directives</h1>
+<div *ngFor="let color of colors; index as i; first as f; last as l; odd as o; even as e">
+    <h2>{{o}} : {{e}} : {{f}} : {{l}} : {{i}} : {{color}}</h2>
 </div>
 
