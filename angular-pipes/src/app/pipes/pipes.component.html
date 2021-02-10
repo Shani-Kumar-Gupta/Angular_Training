@@ -1,4 +1,13 @@
 <p>pipes works!</p>
+<!--Pipes allows us to transform data before displaying them to view-->
 <div>
     <h4>{{name}}</h4>
+    <h2>Built-in Pipes used for string</h2>
+    <p>{{name | lowercase}}</p>
+    <p>{{name | uppercase}}</p>
+    <h4>{{message | titlecase}}</h4>
+    <h4>{{message | slice:3}}</h4>
+    <h4>{{message | slice:3:8}}</h4>
+    <h3>{{person}}</h3>
+    <h3>{{person | json}}</h3>
 </div>
