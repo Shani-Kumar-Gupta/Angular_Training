@@ -1,0 +1,13 @@
+<div>
+    <h1>Welcome to {{title}}</h1>
+    <h2>{{subTitle}}</h2>
+    <button [disabled]="!addNewServer" (click)="onCreateServer()">Add Server</button>
+    <p>{{serverCreationStatus}}</p>
+    <h3>Server with ID - 10 is {{serverStatus}}</h3>
+    <input type="text" (input)="onUserInput($event)">
+    <p>{{serverName}}</p>
+
+    <p>Two way binding</p>
+    <input type="text" [(ngModel)]="serverName">
+    <p>{{serverName}}</p>
+</div>

@@ -14,9 +14,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
+  public name1 = "Yshika";
   public name = "Gemini Solutions" // Class Property
   public url = window.location.href;
-
+  public value = "xyz";
   // Property Binding
   public myId = "testId"
   public isDisabled = false;

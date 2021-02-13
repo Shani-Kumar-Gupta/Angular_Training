@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { BindingComponent } from './binding/binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { Trainingsession2Component } from './trainingsession2/trainingsession2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     BindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    Trainingsession2Component
   ],
   imports: [
     BrowserModule,
