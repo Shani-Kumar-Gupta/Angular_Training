@@ -1,1 +1,13 @@
+<style>
+    .container {
+        text-align: center;
+    }
+</style>
+
 <p>lifecycle-hooks works!</p>
+<div class="container">
+    {{childValue}}
+    <button (click)="onClickTextChange()">Click To Change Text</button>
+    <p>{{text}}</p>
+    <ng-content></ng-content>
+</div>

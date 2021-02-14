@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-lifecycle-hooks';
+  name = 'DATA FOR CHILD';
+  showChildComponent = true;
+  constructor() {
+    console.log('::::::::::Parent Constructor called:::::::::');
+  }
+
+  onClickChangeInput() {
+    this.name = "Text value changed";
+  }
+
+  toggleComponent() {
+    this.showChildComponent = !this.showChildComponent;
+  }
 }
