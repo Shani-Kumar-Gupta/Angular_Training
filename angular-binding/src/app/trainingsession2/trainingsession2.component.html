@@ -3,11 +3,14 @@
     <h2>{{subTitle}}</h2>
     <button [disabled]="!addNewServer" (click)="onCreateServer()">Add Server</button>
     <p>{{serverCreationStatus}}</p>
-    <h3>Server with ID - 10 is {{serverStatus}}</h3>
     <input type="text" (input)="onUserInput($event)">
     <p>{{serverName}}</p>
 
     <p>Two way binding</p>
     <input type="text" [(ngModel)]="serverName">
     <p>{{serverName}}</p>
+
+    <h1>Structural Directives</h1>
+    <h3 *ngIf="isServerCreated">Server with ID - 10 is {{serverStatus}}</h3>
+    <p *ngFor="let server of serverArray">{{server}}</p>
 </div>

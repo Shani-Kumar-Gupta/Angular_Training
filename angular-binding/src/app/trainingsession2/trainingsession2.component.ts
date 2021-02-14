@@ -14,6 +14,9 @@ export class Trainingsession2Component implements OnInit {
   serverCreationStatus = "No Server Created Yet";
   serverID = 11;
   serverName = '';
+  isServerCreated = false;
+
+  serverArray = ["Server1", "Server2", "Server3", "Server4"];
 
   constructor() {
     setTimeout(() => {
@@ -26,6 +29,7 @@ export class Trainingsession2Component implements OnInit {
 
   onCreateServer() {
     this.increamentServerID();
+    this.isServerCreated = true;
     this.serverCreationStatus = "One new Server Created with ID - " + this.serverID;
     console.log("Server Name:::::", this.serverName);
   }
