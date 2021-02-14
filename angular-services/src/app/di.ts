@@ -53,3 +53,14 @@ class Camera {
 
     }
 }
+
+// So Even if you changes the dependency it won't affect the mobile class.
+
+/* 3. DI as a framework in Angular.
+Step 1. Make a Service.
+Step 2. Register the service using Injector (Angular have inbuild Injector where
+    you can register the service(or Dependency) required in the application).
+Step 3. Declare the dependency in the component where you want to use it.*/
+
+// DI is herarical in nature: If service register at A component then it will only available 
+// to use for A component.
