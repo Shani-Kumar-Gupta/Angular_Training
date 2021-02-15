@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DirectivesComponent implements OnInit {
 
   displayName = false;
+  num: number = 1;
   public color = "red";
 
   public colors = ["red", "green", "blue", "yellow"]

@@ -22,6 +22,8 @@ export class TestComponent implements OnInit {
   public myId = "testId"
   public isDisabled = false;
 
+  name3 : string = 'Priyanshu'; 
+
   // Class Binding
   public successClass = "text-success";
   public dangerClass = "text-danger";
@@ -41,6 +43,10 @@ export class TestComponent implements OnInit {
 
   greetUser = () => {
     return "Hello " + this.name;
+  }
+
+  onClick(){
+    this.name3 = "Priyanshu Jain";
   }
 
 }

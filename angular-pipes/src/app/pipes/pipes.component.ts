@@ -11,7 +11,8 @@ export class PipesComponent implements OnInit {
   public message = "Welcome to learn Angular Pipes";
   public person = {
     "firstName" : "Smith",
-    "lastName" : "Johnson"
+    "lastName" : "Johnson",
+    "age" : 23
   }
 
   public date = new Date();
