@@ -8,6 +8,7 @@ import { EmployeeService } from '../employee.service';
 })
 export class EmployeeListComponent implements OnInit {
 
+  nameValue: string = '';
   employees: any = [];
 
   // Step 3: DI of the Employee Service
@@ -15,6 +16,11 @@ export class EmployeeListComponent implements OnInit {
 
   ngOnInit(): void {
     this.employees = this._employeeService.getEmployees();
+  }
+
+  setName() {
+    console.log(this.nameValue);
+    this._employeeService.setEmployeeName(this.nameValue);
   }
 
 }

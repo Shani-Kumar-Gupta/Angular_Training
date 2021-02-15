@@ -2,3 +2,6 @@
 <ul *ngFor="let employee of employees">
     {{employee.name}}
 </ul>
+
+<input type="text" [(ngModel)]="nameValue" #ctrl="ngModel">
+<button (click)="setName()">Click to Set</button>

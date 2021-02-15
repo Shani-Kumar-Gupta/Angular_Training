@@ -1,0 +1,5 @@
+1. Make a service having products array
+2. Make two components and inject service in that and show the products array in their respective html file
+3. Use Routing
+4. Set some product name in A.component.ts and store it in service 
+5. Get the product name stored in service via A.component.ts file and show on the page
