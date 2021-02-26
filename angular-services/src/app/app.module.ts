@@ -7,12 +7,16 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { EmployeeService } from './employee.service';
 import { FormsModule } from '@angular/forms';
+import { StudentsListComponent } from './students-list/students-list.component';
+import { StudentDetailsComponent } from './student-details/student-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeListComponent,
-    EmployeeDetailComponent
+    EmployeeDetailComponent,
+    StudentsListComponent,
+    StudentDetailsComponent
   ],
   imports: [
     BrowserModule,

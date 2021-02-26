@@ -25,3 +25,8 @@ export class EmployeeService {
     return this.name;
   }
 }
+
+/*Service: A class with a specific purpose::::::::
+1) Share Data
+2) Implement application logic
+3) External Interaction */
