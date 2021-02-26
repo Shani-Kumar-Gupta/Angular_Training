@@ -1,3 +1,8 @@
 <div>
     <h2><b>Student Details</b></h2>
+    <ul>
+        <li *ngFor="let student of studentDetail">
+            {{student.name}} :: {{student.College}}
+        </li>
+    </ul>
 </div>

@@ -9,6 +9,7 @@ import { EmployeeService } from './employee.service';
 import { FormsModule } from '@angular/forms';
 import { StudentsListComponent } from './students-list/students-list.component';
 import { StudentDetailsComponent } from './student-details/student-details.component';
+import { StudentService } from './student.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { StudentDetailsComponent } from './student-details/student-details.compo
     FormsModule
   ],
   providers: [
-    EmployeeService // Step 2: Register the service
+    EmployeeService, // Step 2: Register the service
+    StudentService, // Step 2: Register student service
   ],
   bootstrap: [AppComponent]
 })
