@@ -14,6 +14,7 @@ export class StudentListComponent implements OnInit {
 
   ngOnInit(): void {
     this.studentList = this._studentListService.getStudentData();
+    console.log("Student List:::::::::", this.studentList);
   }
 
 }
