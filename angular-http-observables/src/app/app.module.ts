@@ -16,7 +16,7 @@ import { StudentService } from './student.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule // Step 1: imported Http Module
   ],
   providers: [
     StudentService,

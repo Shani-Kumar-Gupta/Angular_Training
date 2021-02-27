@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { StudentService } from '../student.service';
 
 @Component({
   selector: 'app-student-detail',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentDetailComponent implements OnInit {
 
-  constructor() { }
+  public stuData: any = [];
+
+  constructor(private _studentService: StudentService) { }
 
   ngOnInit(): void {
+    this._studentService.getStudent()
+      .subscribe(data => this.stuData = data); // Step 4: Subscribe observable to show data on view
+    console.log("Student Data::::: ", this.stuData); // Get data async
   }
 
 }

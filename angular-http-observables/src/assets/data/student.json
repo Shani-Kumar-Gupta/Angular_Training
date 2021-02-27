@@ -1,0 +1,7 @@
+[
+    {"id": 1, "Name": "Shani Kumar Gupta", "UniversityRollNo": 171500308, "Course": "B.Tech"},
+    {"id": 2, "Name": "Naman Singh Chandel", "UniversityRollNo": 171500202, "Course": "B.Tech"},
+    {"id": 3, "Name": "Aman Kumar", "UniversityRollNo": 171000106, "Course": "B.Pharma"},
+    {"id": 4, "Name": "Anmol Raheja", "UniversityRollNo": 171500289, "Course": "BCA"},
+    {"id": 5, "Name": "Amit Singh", "UniversityRollNo": 171502308, "Course": "BioTech"}
+]
