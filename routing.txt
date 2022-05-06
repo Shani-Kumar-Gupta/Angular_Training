@@ -1,0 +1,35 @@
+Routing:
+- What is Routing?
+- Routing STrategy
+	PathLocationStrategy
+	HashLocationStrategy
+- Base HREF
+
+
+- Router Module
+- Router Outlet
+- Configure Route
+
+
+- Router Link
+
+- Paraetrized Routing
+
+ /product/100
+ 
+- Query Params in Routing
+
+- Wild card route
+
+- Child Routes
+
+customer /customer
+  product /customer/product
+     view /customer/product/view
+     buy
+     add /customer/product/add
+
+- Lazy Module Loading
+
+
+- Route Guards
