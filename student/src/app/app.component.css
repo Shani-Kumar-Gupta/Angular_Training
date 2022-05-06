@@ -1,0 +1,28 @@
+.card {
+  border-radius: 5px 5px;
+}
+
+.head {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 114, 66) 0%,
+    rgb(4, 109, 91) 100%
+  );
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input.invalid {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+}
+
+.hidden {
+  display: none;
+}
