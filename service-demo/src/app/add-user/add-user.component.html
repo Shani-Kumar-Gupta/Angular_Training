@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group">
+      <div class="row">
+        <div class="col-md-6">
+          <label for="fname">Name: </label>
+          <input
+            id="fname"
+            name="fname"
+            type="text"
+            placeholder=""
+            [(ngModel)]="name"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="company">Company: </label>
+          <input
+            id="company"
+            type="text"
+            placeholder=""
+            name="company"
+            [(ngModel)]="company"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="email">Email: </label>
+          <input
+            id="email"
+            type="text"
+            placeholder=""
+            [(ngModel)]="email"
+            name="email"
+          />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="addUser()">
+        Add User
+      </button>
+    </div>
+  </div>
+</div>
