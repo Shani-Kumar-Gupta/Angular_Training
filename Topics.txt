@@ -1,0 +1,51 @@
+Today's Agenda-
+
+Introduction To Angular
+
+Pre requisite to Start with Angular-
+
+1. Node should be installed (What is Node and NPM?)
+2. Angular CLI
+
+Difference between Library and Framework?
+
+  1. What is Angular? SPA
+  2. Why Angular?
+  3. Angular Architecture and Structure of Project (Project Creation)
+  4. Introduction to TypeScript (Strongly Typed Lang vs. Loosely Typed Lang)
+  5. Angular CLI
+  6. Different Command
+  7. Brief Introduction of Modules(Decorator, Directives), Components
+      Bootstrap the Application (Angular CLI Serve's index.html by default)
+      Custom Component (Selector[element, attribute, class selector], Template, Styles)
+
+Today's Topics:
+
+  8. Data Binding (One way, Two way)
+  9. Event Binding
+  10. Property Binding
+
+
+  11. Lifecycle Hooks
+  12. Component Interaction and How to share data among components, Input and Output, View Child
+
+  Priyanshu:
+  13. Directives and Pipes
+
+
+  12. Services and Dependency Injection ()
+
+  comp A -> comp B -> comp C -> comp D
+
+  Services ---> 
+
+    Typescript classes 
+    Use - Data Sharing and functionality
+
+Code resuse
+cross component commincation
+easy handling
+
+
+14. Template Driven Forms and ngModel, Reactive Forms
+15. Lazy Loading of Modules and Components, Routing and Route Guards , How to acess Route Parameters
